@@ -1,8 +1,8 @@
-@charset utf-8;
+@charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
 
-
+/* css초기화 */
 html, body, div, span, object, iframe, h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small, strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
     margin: 0;
     padding: 0;
@@ -23,7 +23,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 }
 
 nav ul, li {
-    list-style: none;
+    list-style-type: none;
 }
 
 a {
@@ -57,5 +57,6 @@ input,textarea {
     vertical-align: top;
     border-radius: 0;
     box-sizing: content-box;
+    /* os기본 테마 설정 사용금지 */
     appearance: none;
 }
